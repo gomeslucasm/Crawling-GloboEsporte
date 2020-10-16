@@ -11,7 +11,7 @@ class UltimasNoticiasSpider(scrapy.Spider):
         self.allowed_domains = ['globoesporte.globo.com/futebol/times/' + time ]      
         self.start_urls = ['https://globoesporte.globo.com/futebol/times/' + time]
     
-    def parse(self, responseshub schedule SPIDER):
+    def parse(self, response):
         
         noticias = response.xpath("//div[contains(@class,'bstn-fd')]//div[@class = 'bastian-page']//div\
             [contains(@class,'bastian-feed')]//div[@class='feed-post-body-resumo']/text()").getall()       
