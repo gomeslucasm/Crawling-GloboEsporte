@@ -4,9 +4,11 @@ Códigos em Python 🐍 para Extração de informações (Web crawling) das últ
 
 # Como usar 
 
-´´´
-lalalaa
-´´´
+```
+
+lalalala
+
+```
 
 # Scrapy 
 
